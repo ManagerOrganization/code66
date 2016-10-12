@@ -1,0 +1,10 @@
+Package: com.yourcompany.wxtweak
+Name: wxTweak
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: hp
+Author: hp
+Section: Tweaks
+Version: 0.0.1-6+debug
+Installed-Size: 124
