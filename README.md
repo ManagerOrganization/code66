@@ -6,8 +6,11 @@ Code 66 !
 
 Code66 是一款微信插件，虽然我不知道它最后的功能会有多少，但是它现在至少可以秒抢微信红包了。对了，其实它更重要的意义在于是我学习iOS逆向工程的产物。
 
-----------
+-------------------
 
+##功能
+
+- 秒抢红包
 
 ##目录结构
 code66 
@@ -39,9 +42,9 @@ code66
 
 2.  WeChatHelperCode/tweak/ 下是插件的代码，进去直接make，会生成一个隐藏目录 .theos, 在 .theos/obj/debug/ 下有动态库wxTweak.dylib , 把动态库复制到 Package/Package/Library/MobileSubstrate/DynamicLibraries/ 下。 
 
-3.  在 执行Package/ 下的 build.sh,  会直接生成code66.deb，就是我们最后要安装的deb。 
+3.  再执行Package/ 下的 build.sh,  会直接生成code66.deb，就是我们最后要安装的deb。 
 
-4.  打开PP助手之类的工具，直接把code66.deb放到文件系统根目录。当然你也可以用终端ssh到你的手机，然后scrp到根目录，你高兴就好。
+4.  打开PP助手之类的工具，直接把code66.deb放到文件系统根目录。当然你也可以用终端ssh到你的手机，然后scp到根目录，你高兴就好。
 
 5.  用手机上的iFile到手机根目录下找到code66.deb，点击，然后install。
 
