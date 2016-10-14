@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ivNyK3K0arN1kbJobr1DpQFrCyY=
+			j/m5sW9hziJpsrNcL8E1lX5dpFE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XuvSZheepS6qM89oERsRkK7tQPM=
+			VZ/JzopAKdksvPGjLHtGE0sCKpQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H2rY3KooHQu+dFDnbWfgTQyQFvk=
+			nfnS1XvlTxagxrrrDDj/dceMtfY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wNHiHCboCNcJs+QUffLALRsECik=
+			PkXYr3NG85/PfExPHPyD3uHUuno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -66,9 +66,13 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>SliderCell.nib</key>
+		<data>
+		xsI15DysV9pIIp0LIWHaUwmZccA=
+		</data>
 		<key>SwitchCell.nib</key>
 		<data>
-		/axzVUDN+2AYt/vlS2kbi1QscoU=
+		W81nm6Zv0qFlOMZUFt591BT6II4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -81,11 +85,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ivNyK3K0arN1kbJobr1DpQFrCyY=
+			j/m5sW9hziJpsrNcL8E1lX5dpFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8mwHLQKxNUFwM/jxd82JA7eVzpil1NN/TJ2ayftTgAg=
+			3DdfPGSVU31bp/l3O6Djdcj9OLX7rn62v4Ai0kSJ2jA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -107,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XuvSZheepS6qM89oERsRkK7tQPM=
+			VZ/JzopAKdksvPGjLHtGE0sCKpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			l+WN1BDRrIbw7KYu2YC6kgt5phDs6ZLIFJe6qwWDOP4=
+			SPDcSRrnqAmLo0lWXzX+RBuqPqP63mpEiVNu5uWzzGk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -120,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H2rY3KooHQu+dFDnbWfgTQyQFvk=
+			nfnS1XvlTxagxrrrDDj/dceMtfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			doP+MCvvcAKWp2uI3R3+H/eLUNtplLMt5i9HUyD6Svk=
+			nX1bHx02lBaOpjgFFYbJTBqKzbbduO1EorgiJy7Ft7g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -146,24 +150,35 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wNHiHCboCNcJs+QUffLALRsECik=
+			PkXYr3NG85/PfExPHPyD3uHUuno=
 			</data>
 			<key>hash2</key>
 			<data>
-			dhvGaxlCIfVUnyallYiSt3ZDSwZ8ejsJa53KvIr+MbA=
+			dptnhOmoafgU4XN2arupJalHJ5Ghmi/+Si60OTPuUbw=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>SliderCell.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xsI15DysV9pIIp0LIWHaUwmZccA=
+			</data>
+			<key>hash2</key>
+			<data>
+			PM2VuCFlGHA9xXh7lbZxVflmJ7FAelJVzHro7qvHU9U=
+			</data>
 		</dict>
 		<key>SwitchCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/axzVUDN+2AYt/vlS2kbi1QscoU=
+			W81nm6Zv0qFlOMZUFt591BT6II4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5azIcivEhJ67kePFokIlfdvHLAuY8vlFglXiXB+T+30=
+			0eZF/jIn6AhDqGCfb8kAEjp2eKOQht64HBMV/AhGmew=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

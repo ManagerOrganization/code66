@@ -1,5 +1,6 @@
 #import <substrate.h>
-#define LOCATION_PATH @"/var/mobile/Library/Preferences/controlCf"
+#import "ConfigManager.h"
+
 
 @interface BadRoomLogicController : NSObject
 

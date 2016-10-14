@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E67E107D1DB0CECA0039BB1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E67E107C1DB0CECA0039BB1F /* main.m */; };
+		E67E10801DB0CECA0039BB1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E67E107F1DB0CECA0039BB1F /* AppDelegate.m */; };
+		E67E10831DB0CECA0039BB1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67E10821DB0CECA0039BB1F /* ViewController.m */; };
+		E67E10861DB0CECA0039BB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67E10841DB0CECA0039BB1F /* Main.storyboard */; };
+		E67E10881DB0CECA0039BB1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E67E10871DB0CECA0039BB1F /* Assets.xcassets */; };
+		E67E108B1DB0CECA0039BB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67E10891DB0CECA0039BB1F /* LaunchScreen.storyboard */; };
+		E67E10BB1DB0CF0C0039BB1F /* control in Resources */ = {isa = PBXBuildFile; fileRef = E67E10961DB0CF0C0039BB1F /* control */; };
+		E67E10BC1DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E109A1DB0CF0C0039BB1F /* wxTweak.dylib */; };
+		E67E10BD1DB0CF0C0039BB1F /* wxTweak.plist in Resources */ = {isa = PBXBuildFile; fileRef = E67E109B1DB0CF0C0039BB1F /* wxTweak.plist */; };
+		E67E10BE1DB0CF0C0039BB1F /* build_session in Resources */ = {isa = PBXBuildFile; fileRef = E67E109C1DB0CF0C0039BB1F /* build_session */; };
+		E67E10BF1DB0CF0C0039BB1F /* fakeroot in Resources */ = {isa = PBXBuildFile; fileRef = E67E109D1DB0CF0C0039BB1F /* fakeroot */; };
+		E67E10C01DB0CF0C0039BB1F /* last_package in Resources */ = {isa = PBXBuildFile; fileRef = E67E109E1DB0CF0C0039BB1F /* last_package */; };
+		E67E10C11DB0CF0C0039BB1F /* .stamp in Resources */ = {isa = PBXBuildFile; fileRef = E67E10A11DB0CF0C0039BB1F /* .stamp */; };
+		E67E10C21DB0CF0C0039BB1F /* Tweak.xm.6695132f.o in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A31DB0CF0C0039BB1F /* Tweak.xm.6695132f.o */; };
+		E67E10C31DB0CF0C0039BB1F /* Tweak.xm.d6e76a8e.o in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A41DB0CF0C0039BB1F /* Tweak.xm.d6e76a8e.o */; };
+		E67E10C41DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A51DB0CF0C0039BB1F /* wxTweak.dylib */; };
+		E67E10C51DB0CF0C0039BB1F /* Tweak.xm.1eea5a84.o in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A71DB0CF0C0039BB1F /* Tweak.xm.1eea5a84.o */; };
+		E67E10C61DB0CF0C0039BB1F /* Tweak.xm.6214dee9.o in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A81DB0CF0C0039BB1F /* Tweak.xm.6214dee9.o */; };
+		E67E10C71DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10A91DB0CF0C0039BB1F /* wxTweak.dylib */; };
+		E67E10C81DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10AA1DB0CF0C0039BB1F /* wxTweak.dylib */; };
+		E67E10C91DB0CF0C0039BB1F /* com.yourcompany.wxtweak-0.0.1 in Resources */ = {isa = PBXBuildFile; fileRef = E67E10AC1DB0CF0C0039BB1F /* com.yourcompany.wxtweak-0.0.1 */; };
+		E67E10CA1DB0CF0C0039BB1F /* control in Resources */ = {isa = PBXBuildFile; fileRef = E67E10AD1DB0CF0C0039BB1F /* control */; };
+		E67E10CB1DB0CF0C0039BB1F /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E67E10AE1DB0CF0C0039BB1F /* Makefile */; };
+		E67E10CC1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B21DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb */; };
+		E67E10CD1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B31DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb */; };
+		E67E10CE1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B41DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb */; };
+		E67E10CF1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B51DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb */; };
+		E67E10D01DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B61DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb */; };
+		E67E10D11DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = E67E10B71DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb */; };
+		E67E10D21DB0CF0C0039BB1F /* Tweak.xm in Resources */ = {isa = PBXBuildFile; fileRef = E67E10B91DB0CF0C0039BB1F /* Tweak.xm */; };
+		E67E10D31DB0CF0C0039BB1F /* wxTweak.plist in Resources */ = {isa = PBXBuildFile; fileRef = E67E10BA1DB0CF0C0039BB1F /* wxTweak.plist */; };
+		E67E10D61DB0CF8D0039BB1F /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E67E10D51DB0CF8D0039BB1F /* ConfigManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E67E10781DB0CECA0039BB1F /* code66_tweak_helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = code66_tweak_helper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67E107C1DB0CECA0039BB1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E67E107E1DB0CECA0039BB1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E67E107F1DB0CECA0039BB1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E67E10811DB0CECA0039BB1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E67E10821DB0CECA0039BB1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E67E10851DB0CECA0039BB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E67E10871DB0CECA0039BB1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E67E108A1DB0CECA0039BB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E67E108C1DB0CECA0039BB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67E10961DB0CF0C0039BB1F /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		E67E109A1DB0CF0C0039BB1F /* wxTweak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = wxTweak.dylib; sourceTree = "<group>"; };
+		E67E109B1DB0CF0C0039BB1F /* wxTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = wxTweak.plist; sourceTree = "<group>"; };
+		E67E109C1DB0CF0C0039BB1F /* build_session */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build_session; sourceTree = "<group>"; };
+		E67E109D1DB0CF0C0039BB1F /* fakeroot */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fakeroot; sourceTree = "<group>"; };
+		E67E109E1DB0CF0C0039BB1F /* last_package */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = last_package; sourceTree = "<group>"; };
+		E67E10A11DB0CF0C0039BB1F /* .stamp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .stamp; sourceTree = "<group>"; };
+		E67E10A31DB0CF0C0039BB1F /* Tweak.xm.6695132f.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Tweak.xm.6695132f.o; sourceTree = "<group>"; };
+		E67E10A41DB0CF0C0039BB1F /* Tweak.xm.d6e76a8e.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Tweak.xm.d6e76a8e.o; sourceTree = "<group>"; };
+		E67E10A51DB0CF0C0039BB1F /* wxTweak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = wxTweak.dylib; sourceTree = "<group>"; };
+		E67E10A71DB0CF0C0039BB1F /* Tweak.xm.1eea5a84.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Tweak.xm.1eea5a84.o; sourceTree = "<group>"; };
+		E67E10A81DB0CF0C0039BB1F /* Tweak.xm.6214dee9.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = Tweak.xm.6214dee9.o; sourceTree = "<group>"; };
+		E67E10A91DB0CF0C0039BB1F /* wxTweak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = wxTweak.dylib; sourceTree = "<group>"; };
+		E67E10AA1DB0CF0C0039BB1F /* wxTweak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = wxTweak.dylib; sourceTree = "<group>"; };
+		E67E10AC1DB0CF0C0039BB1F /* com.yourcompany.wxtweak-0.0.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = "com.yourcompany.wxtweak-0.0.1"; sourceTree = "<group>"; };
+		E67E10AD1DB0CF0C0039BB1F /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		E67E10AE1DB0CF0C0039BB1F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		E67E10B21DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B31DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B41DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B51DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B61DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B71DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb"; sourceTree = "<group>"; };
+		E67E10B81DB0CF0C0039BB1F /* tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweak.h; sourceTree = "<group>"; };
+		E67E10B91DB0CF0C0039BB1F /* Tweak.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = Tweak.xm; sourceTree = "<group>"; };
+		E67E10BA1DB0CF0C0039BB1F /* wxTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = wxTweak.plist; sourceTree = "<group>"; };
+		E67E10D41DB0CF8D0039BB1F /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigManager.h; sourceTree = "<group>"; };
+		E67E10D51DB0CF8D0039BB1F /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E67E10751DB0CECA0039BB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67E10D01DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10C31DB0CF0C0039BB1F /* Tweak.xm.d6e76a8e.o in Frameworks */,
+				E67E10C51DB0CF0C0039BB1F /* Tweak.xm.1eea5a84.o in Frameworks */,
+				E67E10CC1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10C81DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */,
+				E67E10D11DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10CE1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10C71DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */,
+				E67E10BC1DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */,
+				E67E10CF1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10C61DB0CF0C0039BB1F /* Tweak.xm.6214dee9.o in Frameworks */,
+				E67E10CD1DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb in Frameworks */,
+				E67E10C41DB0CF0C0039BB1F /* wxTweak.dylib in Frameworks */,
+				E67E10C21DB0CF0C0039BB1F /* Tweak.xm.6695132f.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E67E106F1DB0CECA0039BB1F = {
+			isa = PBXGroup;
+			children = (
+				E67E107A1DB0CECA0039BB1F /* code66_tweak_helper */,
+				E67E10791DB0CECA0039BB1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E67E10791DB0CECA0039BB1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10781DB0CECA0039BB1F /* code66_tweak_helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67E107A1DB0CECA0039BB1F /* code66_tweak_helper */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10921DB0CF0C0039BB1F /* tweak */,
+				E67E107E1DB0CECA0039BB1F /* AppDelegate.h */,
+				E67E107F1DB0CECA0039BB1F /* AppDelegate.m */,
+				E67E10811DB0CECA0039BB1F /* ViewController.h */,
+				E67E10821DB0CECA0039BB1F /* ViewController.m */,
+				E67E10841DB0CECA0039BB1F /* Main.storyboard */,
+				E67E10871DB0CECA0039BB1F /* Assets.xcassets */,
+				E67E10891DB0CECA0039BB1F /* LaunchScreen.storyboard */,
+				E67E108C1DB0CECA0039BB1F /* Info.plist */,
+				E67E107B1DB0CECA0039BB1F /* Supporting Files */,
+			);
+			path = code66_tweak_helper;
+			sourceTree = "<group>";
+		};
+		E67E107B1DB0CECA0039BB1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E67E107C1DB0CECA0039BB1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E67E10921DB0CF0C0039BB1F /* tweak */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10931DB0CF0C0039BB1F /* .theos */,
+				E67E10AD1DB0CF0C0039BB1F /* control */,
+				E67E10AE1DB0CF0C0039BB1F /* Makefile */,
+				E67E10AF1DB0CF0C0039BB1F /* obj */,
+				E67E10B11DB0CF0C0039BB1F /* packages */,
+				E67E10B81DB0CF0C0039BB1F /* tweak.h */,
+				E67E10B91DB0CF0C0039BB1F /* Tweak.xm */,
+				E67E10BA1DB0CF0C0039BB1F /* wxTweak.plist */,
+				E67E10D41DB0CF8D0039BB1F /* ConfigManager.h */,
+				E67E10D51DB0CF8D0039BB1F /* ConfigManager.m */,
+			);
+			name = tweak;
+			path = ../../tweak;
+			sourceTree = "<group>";
+		};
+		E67E10931DB0CF0C0039BB1F /* .theos */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10941DB0CF0C0039BB1F /* _ */,
+				E67E109C1DB0CF0C0039BB1F /* build_session */,
+				E67E109D1DB0CF0C0039BB1F /* fakeroot */,
+				E67E109E1DB0CF0C0039BB1F /* last_package */,
+				E67E109F1DB0CF0C0039BB1F /* obj */,
+				E67E10AB1DB0CF0C0039BB1F /* packages */,
+			);
+			path = .theos;
+			sourceTree = "<group>";
+		};
+		E67E10941DB0CF0C0039BB1F /* _ */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10951DB0CF0C0039BB1F /* DEBIAN */,
+				E67E10971DB0CF0C0039BB1F /* Library */,
+			);
+			path = _;
+			sourceTree = "<group>";
+		};
+		E67E10951DB0CF0C0039BB1F /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10961DB0CF0C0039BB1F /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		E67E10971DB0CF0C0039BB1F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10981DB0CF0C0039BB1F /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E67E10981DB0CF0C0039BB1F /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10991DB0CF0C0039BB1F /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		E67E10991DB0CF0C0039BB1F /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				E67E109A1DB0CF0C0039BB1F /* wxTweak.dylib */,
+				E67E109B1DB0CF0C0039BB1F /* wxTweak.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		E67E109F1DB0CF0C0039BB1F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10A01DB0CF0C0039BB1F /* debug */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		E67E10A01DB0CF0C0039BB1F /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10A11DB0CF0C0039BB1F /* .stamp */,
+				E67E10A21DB0CF0C0039BB1F /* arm64 */,
+				E67E10A61DB0CF0C0039BB1F /* armv7 */,
+				E67E10AA1DB0CF0C0039BB1F /* wxTweak.dylib */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		E67E10A21DB0CF0C0039BB1F /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10A31DB0CF0C0039BB1F /* Tweak.xm.6695132f.o */,
+				E67E10A41DB0CF0C0039BB1F /* Tweak.xm.d6e76a8e.o */,
+				E67E10A51DB0CF0C0039BB1F /* wxTweak.dylib */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		E67E10A61DB0CF0C0039BB1F /* armv7 */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10A71DB0CF0C0039BB1F /* Tweak.xm.1eea5a84.o */,
+				E67E10A81DB0CF0C0039BB1F /* Tweak.xm.6214dee9.o */,
+				E67E10A91DB0CF0C0039BB1F /* wxTweak.dylib */,
+			);
+			path = armv7;
+			sourceTree = "<group>";
+		};
+		E67E10AB1DB0CF0C0039BB1F /* packages */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10AC1DB0CF0C0039BB1F /* com.yourcompany.wxtweak-0.0.1 */,
+			);
+			path = packages;
+			sourceTree = "<group>";
+		};
+		E67E10AF1DB0CF0C0039BB1F /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10B01DB0CF0C0039BB1F /* debug */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		E67E10B01DB0CF0C0039BB1F /* debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		E67E10B11DB0CF0C0039BB1F /* packages */ = {
+			isa = PBXGroup;
+			children = (
+				E67E10B21DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-1+debug_iphoneos-arm.deb */,
+				E67E10B31DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-2+debug_iphoneos-arm.deb */,
+				E67E10B41DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-3+debug_iphoneos-arm.deb */,
+				E67E10B51DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-4+debug_iphoneos-arm.deb */,
+				E67E10B61DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-5+debug_iphoneos-arm.deb */,
+				E67E10B71DB0CF0C0039BB1F /* com.yourcompany.wxtweak_0.0.1-6+debug_iphoneos-arm.deb */,
+			);
+			path = packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E67E10771DB0CECA0039BB1F /* code66_tweak_helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67E108F1DB0CECA0039BB1F /* Build configuration list for PBXNativeTarget "code66_tweak_helper" */;
+			buildPhases = (
+				E67E10741DB0CECA0039BB1F /* Sources */,
+				E67E10751DB0CECA0039BB1F /* Frameworks */,
+				E67E10761DB0CECA0039BB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = code66_tweak_helper;
+			productName = code66_tweak_helper;
+			productReference = E67E10781DB0CECA0039BB1F /* code66_tweak_helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E67E10701DB0CECA0039BB1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = hp;
+				TargetAttributes = {
+					E67E10771DB0CECA0039BB1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PL54F4LJG7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E67E10731DB0CECA0039BB1F /* Build configuration list for PBXProject "code66_tweak_helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E67E106F1DB0CECA0039BB1F;
+			productRefGroup = E67E10791DB0CECA0039BB1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E67E10771DB0CECA0039BB1F /* code66_tweak_helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E67E10761DB0CECA0039BB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67E10D31DB0CF0C0039BB1F /* wxTweak.plist in Resources */,
+				E67E10BB1DB0CF0C0039BB1F /* control in Resources */,
+				E67E10BF1DB0CF0C0039BB1F /* fakeroot in Resources */,
+				E67E10CA1DB0CF0C0039BB1F /* control in Resources */,
+				E67E10BD1DB0CF0C0039BB1F /* wxTweak.plist in Resources */,
+				E67E10C91DB0CF0C0039BB1F /* com.yourcompany.wxtweak-0.0.1 in Resources */,
+				E67E10C01DB0CF0C0039BB1F /* last_package in Resources */,
+				E67E108B1DB0CECA0039BB1F /* LaunchScreen.storyboard in Resources */,
+				E67E10881DB0CECA0039BB1F /* Assets.xcassets in Resources */,
+				E67E10BE1DB0CF0C0039BB1F /* build_session in Resources */,
+				E67E10C11DB0CF0C0039BB1F /* .stamp in Resources */,
+				E67E10861DB0CECA0039BB1F /* Main.storyboard in Resources */,
+				E67E10D21DB0CF0C0039BB1F /* Tweak.xm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E67E10741DB0CECA0039BB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67E10D61DB0CF8D0039BB1F /* ConfigManager.m in Sources */,
+				E67E10831DB0CECA0039BB1F /* ViewController.m in Sources */,
+				E67E10801DB0CECA0039BB1F /* AppDelegate.m in Sources */,
+				E67E10CB1DB0CF0C0039BB1F /* Makefile in Sources */,
+				E67E107D1DB0CECA0039BB1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E67E10841DB0CECA0039BB1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67E10851DB0CECA0039BB1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E67E10891DB0CECA0039BB1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67E108A1DB0CECA0039BB1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E67E108D1DB0CECA0039BB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E67E108E1DB0CECA0039BB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E67E10901DB0CECA0039BB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = code66_tweak_helper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.code66-tweak-helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E67E10911DB0CECA0039BB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = code66_tweak_helper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hp.code66-tweak-helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E67E10731DB0CECA0039BB1F /* Build configuration list for PBXProject "code66_tweak_helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67E108D1DB0CECA0039BB1F /* Debug */,
+				E67E108E1DB0CECA0039BB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E67E108F1DB0CECA0039BB1F /* Build configuration list for PBXNativeTarget "code66_tweak_helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67E10901DB0CECA0039BB1F /* Debug */,
+				E67E10911DB0CECA0039BB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E67E10701DB0CECA0039BB1F /* Project object */;
+}

@@ -6,7 +6,7 @@ ARCHS = armv7 arm64
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = wxTweak
-wxTweak_FILES = Tweak.xm
+wxTweak_FILES = Tweak.xm ConfigManager.m
 wxTweak_FRAMEWORKS = UIKit Foundation
 wxTweak_CFLAGS = -fobjc-arc
 
